@@ -11,7 +11,7 @@ version = "0.0.12"
 base64 = "0.6.0"
 error-chain = "0.10.0"
 futures = "0.1.14"
-hyper = "0.10.15"
+# hyper = "0.10.15"
 lazy_static = "1.0.0"
 regex = "0.2.3"
 serde = "1.0.11"
@@ -19,4 +19,12 @@ serde-xml-rs = "0.2.1"
 serde_bytes = "0.10.2"
 serde_derive = "1.0.11"
 xml-rs = "0.6.1"
-rouille = "3.0.0"
+# rouille = "3.0.0"
+
+[dependencies.rouille]
+path = "../rouille"
+version = "3.0.0"
+
+[dependencies.hyper]
+path = "../hyper"
+version = "0.10.15"
