@@ -54,6 +54,8 @@ impl Client {
         let mut headers = Headers::new();
         headers.set(ContentType("xml".to_owned()));
 
+        // println!("[TRACE] xmlrpc client call_value on uri {}",  uri);
+
         let response = self
             .client
             .post(uri.as_ref())
