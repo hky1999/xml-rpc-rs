@@ -22,9 +22,9 @@ xml-rs = "0.6.1"
 # rouille = "3.0.0"
 
 [dependencies.rouille]
-path = "../rouille"
+git = "https://github.com/hky1999/rouille"
 version = "3.0.0"
 
 [dependencies.hyper]
-path = "../hyper"
+git = "https://github.com/hky1999/hyper"
 version = "0.10.15"
